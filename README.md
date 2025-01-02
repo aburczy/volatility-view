@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Volatility View
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+**Volatility View** is an application dedicated to options traders, offering advanced tools to analyze implied volatility, visualize skews, study option chains...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## License
 
-## Expanding the ESLint configuration
+This project is licensed under the **MIT** license. See the `LICENSE` file for more details.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Author
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Created by aburczy
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+# Volatility View
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Description
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**Volatility View** est une application dédiée aux traders d’options, offrant des outils avancés pour analyser la volatilité implicite, visualiser des skews, étudier les chaînes d'options...
+
+## Licence
+
+Ce projet est sous licence **MIT**. Consultez le fichier `LICENSE` pour plus de détails.
+
+---
+
+## Auteur
+
+Créé par aburczy
